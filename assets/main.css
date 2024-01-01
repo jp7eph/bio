@@ -1,0 +1,21 @@
+/*
+
+======================================================================
+Project Name    : bio
+File Name       : main.css
+Encoding        : UTF-8
+Creation Date   : 2024-01-02
+ 
+Copyright (c) 2016 Naoki Horie.
+ 
+This software is released under the MIT License.
+http://opensource.org/licenses/mit-license.php
+======================================================================
+
+ */
+
+ @charset "utf-8";
+
+.profile-column{
+    max-width: 300px;
+}

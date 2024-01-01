@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
+
 <head>
     <meta charset='utf-8'>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XY4T4WKFZ4"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'G-XY4T4WKFZ4');
@@ -14,18 +15,21 @@
     <title>JP7EPH's profile</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preload" href="./assets/bulma.min.css" as="style" onload="this.rel='stylesheet'">
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="./assets/main.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style"
+        onload="this.rel='stylesheet'">
 </head>
+
 <body>
     <div class="content is-medium has-text-centered">
         <h2>JP7EPH's profile</h2>
     </div>
     <div class="columns is-mobile is-multiline is-centered">
-        <div class="column" style="max-width: 500px;">
+        <div class="column profile-column">
             <div class="card">
                 <div class="card-image">
                     <figure class="image is-square">
-                        <img src="profile.jpg">
+                        <img src="profile.jpg" alt="profile image">
                     </figure>
                 </div>
                 <div class="card-content">
@@ -52,8 +56,9 @@
                     </span>
                     関連技術 (Tech words)
                 </h3>
-                <p>RADAR(X-band), THz imaging(Anntena, Lenz), 3D-print(PLA, FDM), Network, IoT, 電子工作, k8s, OpenAPI etc...</p>
-                <p>Programming: Golang, Python, VB, PowerShell, PHP etc...</p>
+                <p>RADAR(X-band), THz imaging(Anntena, Lenz), 3D-print(PLA, FDM), Network, IoT, 電子工作, k8s, OpenAPI
+                    etc...</p>
+                <p>Programming: Golang, Flutter, Dart, Kotlin Python, VB, PowerShell, PHP etc...</p>
                 <p>Mobile Core(GTP, diameter, EPC, 5GC)</p>
 
                 <h3>
@@ -62,15 +67,21 @@
                     </span>
                     関連リンク (Links)
                 </h3>
-                <a class="button is-medium" href="https://github.com/jp7eph/">
+                <a class="button is-medium" href="https://github.com/jp7eph">
                     <span class="icon">
                         <i class="fab fa-github"></i>
                     </span>
                     <span>GitHub</span>
                 </a>
+                <a class="button is-medium has-background-black" href="https://twitter.com/jp7eph">
+                    <span class="icon">
+                        <i class="fa-brands fa-x-twitter" style="color:white;"></i>
+                    </span>
+                    <span class="has-text-white">X(Twitter)</span>
+                </a>
                 <a class="button is-medium is-success" href="https://qiita.com/jp7eph">
                     <span class="icon">
-                        <i class="fab fa-quora"></i>
+                        <i class="fab fa-q"></i>
                     </span>
                     <span>Qiita</span>
                 </a>
@@ -88,18 +99,30 @@
                     資格/認定 (License/Certification)
                 </h3>
                 <dl>
+                    <dt>AWS Certified DevOps Engineer - Professional</dt>
+                    <dd>2023/12-2026/12</dd>
+                    <dd><a href="https://www.credly.com/badges/b6641ec0-11d6-4464-a86b-b674233fbc3d/public_url">Digital
+                            badge</a></dd>
+                    <dt>AWS Certified Solutions Architect - Professional</dt>
+                    <dd>2023/11-2026/11</dd>
+                    <dd><a href="https://www.credly.com/badges/f45cb3ed-9b21-40c5-aad9-2cd7f50ba351/public_url">Digital
+                            badge</a></dd>
                     <dt>Google Cloud Certified - Professional Cloud Architect</dt>
-                        <dd>2022/3-2024/3</dd>
+                    <dd>2022/3-2024/3</dd>
+                    <dd><a href="https://google.accredible.com/642a00a1-034b-4974-a0f4-fcccb623c7ad">Digital badge</a>
+                    </dd>
                     <dt>Certified Kubernetes Administrator</dt>
-                        <dd>2022/2-2025/2</dd>
+                    <dd>2022/2-2025/2</dd>
+                    <dd><a href="https://www.credly.com/badges/806f3761-690c-4e48-b4b7-4f0e8b37675c/public_url">Digital
+                            badge</a></dd>
                     <dt>情報処理安全確保支援士 (Registered Information Security Specialist)</dt>
-                        <dd>2021/4-2024/3</dd>
+                    <dd>2021/4-2024/3</dd>
                     <dt>OPCEL Certified Professional</dt>
-                        <dd>2020/12-2023/12</dd>
+                    <dd>2020/12-2023/12</dd>
                     <dt>伝送交換主任技術者 (Chief Transmission and Switching Engineer)</dt>
-                        <dd>2019/3-</dd>
+                    <dd>2019/3-</dd>
                     <dt>第一級陸上無線技術士 (First-Class Technical Radio Operator for On-The-Ground Services)</dt>
-                        <dd>2018/2-</dd>
+                    <dd>2018/2-</dd>
                 </dl>
 
                 <h3>
@@ -110,14 +133,15 @@
                 </h3>
                 <dl>
                     <dt>2011/4 - 2016/3</dt>
-                        <dd>仙台高等専門学校 情報ネットワーク工学科</dd>
-                        <dd>National Institute of Technology, Sendai College. Department of Information Networks</dd>
+                    <dd>仙台高等専門学校 情報ネットワーク工学科</dd>
+                    <dd>National Institute of Technology, Sendai College. Department of Information Networks</dd>
                     <dt>2016/4 - 2018/3</dt>
-                        <dd>仙台高等専門学校 情報電子システム工学専攻</dd>
-                        <dd>National Institute of Technology, Sendai College. Division of Information and Electronic System Engineering</dd>
+                    <dd>仙台高等専門学校 情報電子システム工学専攻</dd>
+                    <dd>National Institute of Technology, Sendai College. Division of Information and Electronic System
+                        Engineering</dd>
                     <dt>2018/4 -</dt>
-                        <dd>某通信キャリア</dd>
-                        <dd>Telecommunications carrier</dd>
+                    <dd>某通信キャリア</dd>
+                    <dd>Telecommunications carrier</dd>
                 </dl>
 
                 <h3>
@@ -129,14 +153,16 @@
                 <ol reversed>
                     <li>堀江直樹, 鈴木哲: “300GHz帯イメージング用検出器光学系の設計と製作”, 平成29年度東北地区高等専門学校専攻科産学連携シンポジウム, T17-P2-56 (2017年)</li>
                     <li>堀江直樹, 鈴木哲: “300GHz帯テラヘルツイメージング用光学系の設計”, 平成28年度東北地区高等専門学校専攻科産学連携シンポジウム, T16-P-40 (2016年)</li>
-                    <li>石井誠四郎, 堀江直樹, 岡田麻美, 衣川昌宏: “Xバンドレーダによる航空機の観測とウェザークラッタの抑圧”, 電気学会計測研究会(仙台市), 電気学会計測研究会論文集, IM-16-018, 2016.3.4</li>
+                    <li>石井誠四郎, 堀江直樹, 岡田麻美, 衣川昌宏: “Xバンドレーダによる航空機の観測とウェザークラッタの抑圧”, 電気学会計測研究会(仙台市), 電気学会計測研究会論文集,
+                        IM-16-018, 2016.3.4</li>
                 </ol>
             </div>
         </div>
     </div>
     <footer class="footer">
         <p class="has-text-right">Copyright Naoki Horie, All rights reserved.</p>
-        <p class="has-text-right">Last Modified: 2022/4/2</p>
+        <p class="has-text-right">Last Modified: 2024/1/2</p>
     </footer>
 </body>
+
 </html>
